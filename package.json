@@ -1,7 +1,7 @@
 {
   "name": "logicliketestassigment",
-  "homepage": "https://vaskovskied.github.io/LogicLikeTestAssignment/",
-  "private": true,
+  "homepage": "https://vaskovskied.github.io/LogicLikeTestAssignment",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
