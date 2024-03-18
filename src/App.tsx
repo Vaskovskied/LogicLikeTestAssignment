@@ -23,7 +23,6 @@ const App = () => {
 
   const onChangeSelectedTag = (tag: string | null) => {
     setSelectedTag(tag);
-    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
