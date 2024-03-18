@@ -1,0 +1,12 @@
+@import "../../styles/theme.scss";
+
+.sidebar {
+  $sidebar-width: 264px;
+  width: $sidebar-width;
+  min-width: $sidebar-width;
+  max-width: $sidebar-width;
+  outline: 1px solid $gray-500;
+  border-radius: 18px;
+  padding: 12px;
+  height: fit-content;
+}

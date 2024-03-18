@@ -1,0 +1,28 @@
+.main-container {
+  $main-container-padding: 24px;
+  height: 100vh;
+  padding: $main-container-padding;
+  display: flex;
+  gap: 24px;
+  min-height: 100vh;
+  height: fit-content;
+
+  .sidebar {
+    position: sticky;
+    top: 24px;
+    left: 24px;
+  }
+
+  .courses {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(176px, 1fr));
+    grid-template-rows: min-content;
+    grid-gap: 18px;
+    min-height: calc(100vh - 2 * $main-container-padding);
+  }
+
+  .course-card {
+    width: auto;
+  }
+}

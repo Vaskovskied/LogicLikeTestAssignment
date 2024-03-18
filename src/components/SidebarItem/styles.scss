@@ -1,0 +1,21 @@
+@import "../../styles/theme.scss";
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 42px;
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 800;
+  text-align: start;
+  border-radius: 12px;
+  color: $typography;
+
+  &.sidebar-item--selected {
+    background-color: $accent;
+    color: $background-primary;
+  }
+}
